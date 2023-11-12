@@ -181,7 +181,10 @@ class _HomeScreenState extends State<HomeScreen> {
               floatingActionButton: FloatingActionButton(
                 child: PopupMenuButton(
                   color: Colors.deepOrange,
-                  icon: const Icon(Icons.add),
+                  icon: const Icon(
+                    Icons.add,
+                    color: Colors.white,
+                  ),
                   padding: EdgeInsets.zero,
                   offset: Offset(-MediaQuery.of(context).size.width * .1,
                       -MediaQuery.of(context).size.height * .16),

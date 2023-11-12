@@ -1,4 +1,4 @@
-package svu.ade.xml_notes_app
+package com.example.notes_xml
 
 import io.flutter.embedding.android.FlutterActivity
 
