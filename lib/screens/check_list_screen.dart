@@ -149,9 +149,9 @@ class _CheckListScreenState extends State<CheckListScreen> {
                                 provider.addCheckItem(index);
                                 debugPrint("List Item");
                               },
-                              child: Row(
+                              child: const Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
-                                children: const [
+                                children: [
                                   Icon(Icons.add),
                                   Text(
                                     "New Item",
